@@ -203,6 +203,3 @@ url = "https://steamcommunity.com/id/darthun/"
 name = "youtube"
 url = "https://www.youtube.com/@julienl3957"
 
-[module]
-  [[module.imports]]
-    path = "github.com/hugo-sid/hugo-blog-awesome"

@@ -1,6 +1,5 @@
 +++
 title = 'About'
-date = 2024-06-24T13:49:58-04:00
 draft = false
 toc = false
 +++
