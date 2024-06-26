@@ -5,12 +5,11 @@
     <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Operation Uniform Lima</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Jun 2024 13:49:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 24 Jun 2024 13:49:58 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/about/</guid>
       
