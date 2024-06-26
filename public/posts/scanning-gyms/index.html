@@ -183,27 +183,27 @@ stroke-linejoin="round" class="feather feather-home">
 <h3 id="pictures-into-virtual-cameras">Pictures into virtual cameras</h3>
 <p>To achieve this, you have a bunch of pictures and a bunch of virtual cameras. The goal is to place the virtual camera in the virtual world such that what they see matches the real-life picture they are associated with. You can then move between cameras in the virtual world and see the gym from different points of view.</p>
 <p>With everything aligned, you can easily draw any shape on top of the picture, and the proportions will be right in the virtual world. It&rsquo;s basically a big coloring book where you just add shapes on top of the image. It works like magic once you get your ducks in a row.</p>
-<p><img alt="Blender Cameras" src="/assets/bunchcamera.png"></p>
+<p><img alt="Blender Cameras" src="/images/bunchcamera.png"></p>
 <h3 id="linear-algebra-for-boxers">Linear Algebra for boxers.</h3>
 <p>To align the camera, you just need to draw lines representing an orthonormal base for the 3D space of the picture. Super easy, right? Especially when you&rsquo;re working with a room full of nice 90-degree corners.</p>
-<p><img alt="Camera Base" src="/assets/camerabase.png"></p>
+<p><img alt="Camera Base" src="/images/camerabase.png"></p>
 <p>In this example, you can see I mapped the first arrow (red) to the depth, the second arrow (green) to the lenght, and the height (blue) is automatically computed by vector multiplication. The white dot is a preview of the result, which I placed on a wall corner to make sure everything is aligned correctly.</p>
 <h3 id="wheres-eliam-">Where&rsquo;s Eliam ?</h3>
 <p>I&rsquo;m not a photographer, and I don&rsquo;t know what an f parameter is, or how FOV can be distorted, or anything like that. fSpy needs the dimensions of your camera sensor to work. Most phones don&rsquo;t provide that information. They tell you the focal distance and the lens size, but not the sensor size. Who cares about that stuff, anyway?</p>
 <p>I found the lens size info for my trusty Samsung A50 on a database for phones:</p>
-<p><img alt="Camera Base" src="/assets/A50-1.png"></p>
+<p><img alt="Camera Base" src="/images/A50-1.png"></p>
 <p>But as you can see, it doesn&rsquo;t have the sensor size. Knowing the picture dimensions, the lens size, and other info, I thought I could calculate the sensor size. And yes, we have the technology ! I asked ChatGPT to do it for me, expecting a simple calculation, but it turned out to be two pages of math with some integrals.</p>
 <p>Crazy stuff. The result was close, but the floating precision was off, and Vanessa&rsquo;s office ended up with a punching bag in it ! The math is correct, she&rsquo;s just too far from the origin of the universe (a blue rolling thingy by the ring stairs that day).</p>
 <h3 id="googles-goldeneye">Google&rsquo;s GoldenEye.</h3>
 <p>One weaker minded individual would have given up by now and revealed their need for a measuring tape. But not me.</p>
 <p>Google map has a 360 view of the world, and I obtained the ring size from Joey, so I thought it would be enough information to recreate the rest of the gym.
 With google map, you can measure anything :</p>
-<p><img alt="Sat Image" src="/assets/gymsat.png"></p>
+<p><img alt="Sat Image" src="/images/gymsat.png"></p>
 <p>That&rsquo;s a nice approximation, but I wasn&rsquo;t super happy.</p>
 <h3 id="get-your-shit-together">Get your shit together</h3>
 <p>Eventually, I had to come clean to the coaches about my clandestine measuring tape endeavours. Now, I can&rsquo;t step into the gym without everyone quizzing me about the game&rsquo;s progress. Which is also why I started this blog : to keep everyone in the loop and, let&rsquo;s be honest, to keep myself accountable.</p>
 <p>One such day, Malik who was doing nothing at the reception casually asked: &ldquo;Did you try scanning things with the new iPhones?&rdquo; Ten minutes later, after borrowing Joey&rsquo;s phone, I had this model.</p>
-<p><img alt="Sat Image" src="/assets/iphonegym.png"></p>
+<p><img alt="Sat Image" src="/images/iphonegym.png"></p>
 <p>So I bought an iPhone.</p>
 <p>Of course, I still need to redo everything from scratch, but I&rsquo;ll save that saga for another post.</p>
 
