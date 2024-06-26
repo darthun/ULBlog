@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://darthun.github.io/ULBlog/'
 languageCode = 'en-us'
 title = 'Operation Uniform Lima'
 theme = 'hugo-blog-awesome'
