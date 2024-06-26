@@ -23,14 +23,14 @@ I found a few sites that offer to create scans from pictures, and other cool 3D 
 ### Blender Plugin
 Blender has this paid plugin where you can upload a bunch of real photos from different angles and sculpt the default Blender face into the references. It works okay if you have really good reference photos and your face looks like the default model. It stops working if you have a beard or if you have two ears...
 
-![Blender Plugin](/images/blender-plugin-image.png)
+![Blender Plugin](images/blender-plugin-image.png)
 
 on the left you see the final result, on the right you see the starting mesh.
 
 ### Hyperhuman by Deemos
 Hyperhuman by Deemos is a website that offers to transform a picture into a MetaHuman model. [Hyperhuman](https://hyperhuman.deemos.com/). I used it to try to get Mo's face, and it does a great static mesh for Blender. No facial hair, but "we'll add that in post" like they say in the movie industry.
 
-![Hyperhuman Result](/images/hyperhuman-image.png)
+![Hyperhuman Result](/hyperhuman-image.png)
 
 ### Then why not use that ?
 
@@ -38,7 +38,7 @@ Well I tried ! But even with the best mesh, you lose quality during the promote 
 Those beautiful details get lost when you transform the mesh into a picture, and from the picture into the MetaHuman.
 I must avoid the promote frame step at all cost, or else Mo gets transformed into a generic metahuman.
 
-![Mesh to Picture](/images/mesh-to-picture-image.png)
+![Mesh to Picture](mesh-to-picture-image.png)
 
 ### AI 3D Object Modeling Tools
 I also tried some 3D object modeling tools by AI, and it gave me a super realistic, PlayStation 1 era looking Michael. I love the fidelity of this technique, even if the quality is super low. I can't use it in the game because it doesn't make a full model.
