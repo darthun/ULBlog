@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Operation Uniform Lima</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Operation Uniform Lima</description>
+    <title>Posts on Operation Uniform Lima</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Operation Uniform Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Jun 2024 15:24:40 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 15:24:40 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scanning People</title>
       <link>http://localhost:1313/posts/scanning-people/</link>
@@ -16,18 +16,6 @@
       
       <description>The Problem Replicating someone&amp;rsquo;s likeness in a video game is like trying to paint the Mona Lisa with a paint-by-numbers kit—except the paint is in invisible ink. Professional game studios have entire armies of artists to design the hair, the clothes, and everything in between.
 I, on the other hand, have a budget that could be comfortably described as &amp;ldquo;nonexistent&amp;rdquo; and skills that are &amp;ldquo;developing.&amp;rdquo; So, I need a shortcut to get realistic models into the game without turning into a hermit for months to learn new software.</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 24 Jun 2024 13:49:58 -0400</pubDate>
-      
-      <guid>http://localhost:1313/pages/about/</guid>
-      
-      <description>You didn&amp;rsquo;t come here to learn about me, you wanna know if the game is progressing. go check out the posts.
-You can contact me through the apps listed at the bottom of the page.</description>
       
     </item>
     

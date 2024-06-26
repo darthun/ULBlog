@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Tags | Operation Uniform Lima</title>
-<meta property="og:title" content="Tags | Operation Uniform Lima" />
-<meta name="twitter:title" content="Tags | Operation Uniform Lima" />
-<meta itemprop="name" content="Tags | Operation Uniform Lima" />
-<meta name="application-name" content="Tags | Operation Uniform Lima" />
+<title itemprop="name">Scanning People | Operation Uniform Lima</title>
+<meta property="og:title" content="Scanning People | Operation Uniform Lima" />
+<meta name="twitter:title" content="Scanning People | Operation Uniform Lima" />
+<meta itemprop="name" content="Scanning People | Operation Uniform Lima" />
+<meta name="application-name" content="Scanning People | Operation Uniform Lima" />
 <meta property="og:site_name" content="Operation Uniform Lima" />
 
 <meta name="description" content="Minimal devblog about the Uniform Lima project.">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en-gb" />
 <meta name="language" content="en-gb" />
 
-  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/tags/" title="English" />
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/scanning-people/" title="English" />
 
 
 
@@ -30,14 +30,49 @@
 
 
 
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-06-24T15:24:40-0400 />
+    <meta property="article:published_time" content=2024-06-24T15:24:40-0400 />
+
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Scanning People",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-06-24",
+        "description": "",
+        "wordCount":  636 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-06-24",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Operation Uniform Lima"
+        }
+    }
+    </script>
+
 
 <meta name="generator" content="Hugo 0.127.0">
 
     
 
-    <link rel="canonical" href="http://localhost:1313/tags/">
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Operation Uniform Lima">
-    <link href="/tags/index.xml" rel="feed" type="application/rss+xml" title="Operation Uniform Lima">
+    <link rel="canonical" href="http://localhost:1313/posts/scanning-people/">
     <link href="/style.min.d43bc6c79baa87f006efb2b92be952faeedeb1a3ab626c1d6abda52eae049355.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -95,7 +130,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/posts/">
+                    <a class="menu-link active" href="/posts/">
                         Posts
                     </a>
                     
@@ -123,15 +158,61 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Tags</h1>
-    </header>
-    <main class="page-content" aria-label="Content">
-         
 
-    </main>
-</div><footer class="footer">
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Scanning People</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-06-24T15:24:40-04:00" itemprop="datePublished"> 24 Jun 2024 </time>
+                </div>
+                
+            </header>
+            
+            <div class="page-content">
+                <h2 id="the-problem">The Problem</h2>
+<p>Replicating someone&rsquo;s likeness in a video game is like trying to paint the Mona Lisa with a paint-by-numbers kit—except the paint is in invisible ink. Professional game studios have entire armies of artists to design the hair, the clothes, and everything in between.</p>
+<p>I, on the other hand, have a budget that could be comfortably described as &ldquo;nonexistent&rdquo; and skills that are &ldquo;developing.&rdquo; So, I need a shortcut to get realistic models into the game without turning into a hermit for months to learn new software. Enter MetaHuman, a free asset from Unreal Engine that helps make models that are, well, pretty useful.</p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Has to work with the Unreal 5 default skeletal mesh (Manny)</li>
+<li>Has to work with the boxing animation pack (Oh lord, the anim graph)</li>
+<li>Has to be simple enough to edit ( spoilers : It&rsquo;s not simple)</li>
+<li>Has to look like the people I&rsquo;m trying to replicate ( Mo&rsquo;s face as the new Lena of 3d modeling.)</li>
+</ul>
+<h2 id="the-solution">The Solution</h2>
+<p>I found a few sites that offer to create scans from pictures, and other cool 3D tools and plugins:</p>
+<h3 id="blender-plugin">Blender Plugin</h3>
+<p>Blender has this paid plugin where you can upload a bunch of real photos from different angles and sculpt the default Blender face into the references. It works okay if you have really good reference photos and your face looks like the default model. It stops working if you have a beard or if you have two ears&hellip;</p>
+<p><img alt="Blender Plugin" src="/assets/blender-plugin-image.png"></p>
+<p>on the left you see the final result, on the right you see the starting mesh.</p>
+<h3 id="hyperhuman-by-deemos">Hyperhuman by Deemos</h3>
+<p>Hyperhuman by Deemos is a website that offers to transform a picture into a MetaHuman model. <a href="https://hyperhuman.deemos.com/">Hyperhuman</a>. I used it to try to get Mo&rsquo;s face, and it does a great static mesh for Blender. No facial hair, but &ldquo;we&rsquo;ll add that in post&rdquo; like they say in the movie industry.</p>
+<p><img alt="Hyperhuman Result" src="/assets/hyperhuman-image.png"></p>
+<h3 id="then-why-not-use-that-">Then why not use that ?</h3>
+<p>Well I tried ! But even with the best mesh, you lose quality during the promote frame step of MetaHuman generation.
+Those beautiful details get lost when you transform the mesh into a picture, and from the picture into the MetaHuman.
+I must avoid the promote frame step at all cost, or else Mo gets transformed into a generic metahuman.</p>
+<p><img alt="Mesh to Picture" src="/assets/mesh-to-picture-image.png"></p>
+<h3 id="ai-3d-object-modeling-tools">AI 3D Object Modeling Tools</h3>
+<p>I also tried some 3D object modeling tools by AI, and it gave me a super realistic, PlayStation 1 era looking Michael. I love the fidelity of this technique, even if the quality is super low. I can&rsquo;t use it in the game because it doesn&rsquo;t make a full model.</p>
+<p>I lost the picture, sorry !</p>
+<h2 id="future-techniques">Future Techniques</h2>
+<p>The last technique on my to-do list is using the depth perception camera on the iPhone to take a normal video of someone (Hi Mo!) and use that to generate the MetaHuman directly, bypassing the dreaded &ldquo;promote frame&rdquo; process.</p>
+<p>There&rsquo;s also a method involving Polycam to scan the body and Bellus 3D Faceapp to scan the face. This approach keeps the body size and clothing intact, and the face should look realistic. The downside? You get a mesh that isn&rsquo;t a MetaHuman. Following the tutorial, you end up with a Mixamo character, which has a different rigging and bone structure than the UE5 character, making animations as compatible as a square peg in a round hole.</p>
+<p>To fix that, there&rsquo;s supposedly a &lsquo;mesh-to-metahuman plugin&rsquo; but I suspect it uses the promote frame approach, which, as we&rsquo;ve established, is the arch-nemesis of detail preservation.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This exploration of 3D modeling people has given me a bigger appreciation for good 3D models. In a world where my coding experience used to make me think &quot; that&rsquo;s just code, I can see how they did that.&quot;</p>
+<p>I leave you with my upgraded Mo Face Scanning Station:
+<img alt="Face Station" src="/assets/facestation.jpg"></p>
+
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
