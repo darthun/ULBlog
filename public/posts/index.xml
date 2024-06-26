@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Operation Uniform Lima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Jun 2024 15:24:40 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 15:00:40 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scanning Gyms</title>
+      <link>http://localhost:1313/posts/scanning-gyms/</link>
+      <pubDate>Wed, 26 Jun 2024 15:00:40 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/scanning-gyms/</guid>
+      
+      <description>To make a Boxing Gym When I first started this project, I wanted to keep it a surprise. Half the cool points of making a &amp;ldquo;so-bad-it&amp;rsquo;s-good&amp;rdquo; video game would come from the shock value. Once people have expectations, it&amp;rsquo;s harder to impress them. It&amp;rsquo;s like trying to make a follow-up to a viral De Niro meme video !
+Anyway, to make a boxing game, you need a ring. And that ring needs a gym.</description>
+      
+    </item>
+    
     <item>
       <title>Scanning People</title>
       <link>http://localhost:1313/posts/scanning-people/</link>
