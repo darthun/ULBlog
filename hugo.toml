@@ -2,7 +2,7 @@ baseURL = 'https://darthun.github.io/'
 languageCode = 'en-us'
 title = 'Operation Uniform Lima'
 theme = 'hugo-blog-awesome'
-relativeURLs = true
+
 ###
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
