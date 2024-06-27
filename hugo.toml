@@ -1,8 +1,8 @@
-baseURL = '//darthun.github.io/ULBlog/'
+baseURL = 'https://darthun.github.io/ULBlog/'
 languageCode = 'en-us'
 title = 'Operation Uniform Lima'
 theme = 'hugo-blog-awesome'
-#canonifyURLs = true
+relativeURLs = true
 ###
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
