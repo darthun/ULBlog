@@ -59,3 +59,21 @@ This exploration of 3D modeling people has given me a bigger appreciation for go
 
 I leave you with my upgraded Mo Face Scanning Station:
 ![Face Station](/images/facestation.jpg)
+
+
+##Delete below, image testing
+
+1
+![Blender Plugin](ULBlog/images/blender-plugin-image.png)
+2
+![Blender Plugin](ULBlog/blender-plugin-image.png)
+3
+![Blender Plugin](blender-plugin-image.png)
+4
+![Blender Plugin](/blender-plugin-image.png)
+5
+![Blender Plugin](/assets/blender-plugin-image.png)
+6
+![Blender Plugin](assets/blender-plugin-image.png)
+7
+![Blender Plugin](ULBlog/assets/blender-plugin-image.png)
