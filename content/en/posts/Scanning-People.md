@@ -61,7 +61,7 @@ I leave you with my upgraded Mo Face Scanning Station:
 ![Face Station](/images/facestation.jpg)
 
 
-##Delete below, image testing
+## Delete below, image testing
 
 1
 ![Blender Plugin](ULBlog/images/blender-plugin-image.png)
