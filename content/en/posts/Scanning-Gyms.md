@@ -23,13 +23,13 @@ To achieve this, you have a bunch of pictures and a bunch of virtual cameras. Th
 
 With everything aligned, you can easily draw any shape on top of the picture, and the proportions will be right in the virtual world. It's basically a big coloring book where you just add shapes on top of the image. It works like magic once you get your ducks in a row.
 
-![Blender Cameras](/images/bunchcamera.png)
+![Blender Cameras](/bunchcamera.png)
 
 ### Linear Algebra for boxers.
 
 To align the camera, you just need to draw lines representing an orthonormal base for the 3D space of the picture. Super easy, right? Especially when you're working with a room full of nice 90-degree corners.
 
-![Camera Base](/images/camerabase.png)
+![Camera Base](/camerabase.png)
 
 In this example, you can see I mapped the first arrow (red) to the depth, the second arrow (green) to the lenght, and the height (blue) is automatically computed by vector multiplication. The white dot is a preview of the result, which I placed on a wall corner to make sure everything is aligned correctly.
 
@@ -39,7 +39,7 @@ I'm not a photographer, and I don't know what an f parameter is, or how FOV can 
 
 I found the lens size info for my trusty Samsung A50 on a database for phones: 
 
-![Camera Base](/images/A50-1.png)
+![Camera Base](/A50-1.png)
 
 But as you can see, it doesn't have the sensor size. Knowing the picture dimensions, the lens size, and other info, I thought I could calculate the sensor size. And yes, we have the technology ! I asked ChatGPT to do it for me, expecting a simple calculation, but it turned out to be two pages of math with some integrals.
 
@@ -52,7 +52,7 @@ One weaker minded individual would have given up by now and revealed their need 
 Google map has a 360 view of the world, and I obtained the ring size from Joey, so I thought it would be enough information to recreate the rest of the gym.
 With google map, you can measure anything : 
 
-![Sat Image](/images/gymsat.png)
+![Sat Image](/gymsat.png)
 
 That's a nice approximation, but I wasn't super happy. 
 
@@ -62,7 +62,7 @@ Eventually, I had to come clean to the coaches about my clandestine measuring ta
 
 One such day, Malik who was doing nothing at the reception casually asked: "Did you try scanning things with the new iPhones?" Ten minutes later, after borrowing Joey's phone, I had this model.
 
-![Sat Image](/images/iphonegym.png)
+![Sat Image](/iphonegym.png)
 
 So I bought an iPhone.
 
