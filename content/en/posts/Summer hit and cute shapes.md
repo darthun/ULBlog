@@ -1,6 +1,6 @@
 +++
 title = "Summer hit and cute shapes"
-date = 2024-06-30T08:34:40-04:00
+date = 2024-06-29T23:59:40-04:00
 draft = false
 +++
 
